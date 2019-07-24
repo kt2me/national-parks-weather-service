@@ -1,0 +1,145 @@
+body{
+	font-family:helvetica;
+	background-color: #FAF3E3;	
+	color:#4c5828;	
+	
+}
+
+.header{
+	height: auto;
+	background-color: #FAF3E3
+}
+
+#logo{
+	height: 6em;
+}
+
+nav{
+background-color: #FFC867;	
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 6px;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color: #4c5828;
+	font-weight:bold;
+}
+
+.shadow{
+	border-radius: 6px;
+	box-shadow: 10px 10px 5px grey;	
+}
+ 
+
+.individualPark{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+.generalText{
+	margin: 15px;
+} 
+.parkImage{
+	margin: 15px;	
+}
+
+.parkInfo .parkImage{
+	text-align: center;
+	width: 100%;
+} 
+
+.parkInfo .parkImage img{
+	position: relative;
+	width: 70%;
+	margin: auto;
+}
+
+.title{
+	text-align:center;
+}
+
+#parkText{
+	display:flex;
+	width: 70%;
+	margin: auto;
+	align-items: center;
+}
+.details{
+	width: 50%;
+}
+
+.parkWeatherInfo{
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	text-align: center;
+}
+
+.parkWeatherInfo div{
+	display: flex;
+	flex-direction: column;
+}
+
+.parkWeatherInfo img{
+	border-radius: 50%;
+}
+
+#temp{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 15px;
+}
+
+#presentDayTemp{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 15px;
+}
+
+.day{
+	background-color: #f87c56;
+	padding: 15px;
+	border-radius:6px;
+}
+
+form{
+	margin: auto;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: helvetica;
+}
+
+
+form button{
+	width: 10em;
+	height: 4em;
+	margin: 5px;
+	border-radius: 6px;
+	box-shadow: 3px 3px 1px grey;	
+}
+
+.form{
+	display:flex;
+	flex-direction: column;
+	background-color: #f87c56;
+	width: 60%;
+	border-radius: 10px;
+	height: 300px;
+	margin: auto;
+}
+
+
+
+
+.copywrite{
+	position:fixed;
+	bottom: 0px;
+}
+
